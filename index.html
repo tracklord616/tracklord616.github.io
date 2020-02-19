@@ -428,34 +428,6 @@ img.emoji {
 </div><!-- #page -->
 
 <!--  -->
-<div id="wpadminbar" class="marketing-bar"><div class="marketing-bar-text">Создайте веб-сайт на WordPress.com</div><a class="marketing-bar-button" href="https://ru.wordpress.com/?ref=marketing_bar">Начало работы</a></div><script src='//0.gravatar.com/js/gprofiles.js?ver=202008y'></script>
-<script>
-var WPGroHo = {"my_hash":""};
-</script>
-<script type='text/javascript' src='https://s0.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h'></script>
-
-	<script>
-		//initialize and attach hovercards to all gravatars
-		jQuery( document ).ready( function( $ ) {
-
-			if (typeof Gravatar === "undefined"){
-				return;
-			}
-
-			if ( typeof Gravatar.init !== "function" ) {
-				return;
-			}			
-
-			Gravatar.profile_cb = function( hash, id ) {
-				WPGroHo.syncProfileData( hash, id );
-			};
-			Gravatar.my_hash = WPGroHo.my_hash;
-			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
-		});
-	</script>
-
-		<div style="display:none">
-	</div>
 
 	<div id="carousel-reblog-box">
 		<form action="#" name="carousel-reblog">
